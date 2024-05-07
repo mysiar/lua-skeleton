@@ -1,6 +1,6 @@
 # Lua project skeleton
 
-## Proiject scafolding
+## Project scafolding
 
 ```bash
 luarocks init --lua-versions "5.2"
