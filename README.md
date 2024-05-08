@@ -21,3 +21,8 @@ install all deps from `rockspec`
 ```bash
 lua -l src/setup.lua tests/test_dummy.lua
 ```
+
+## Resources
+* 
+* https://lunarmodules.github.io/Penlight/
+* https://stackoverflow.com/questions/4911186/difference-between-and-in-lua#4911217

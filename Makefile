@@ -3,3 +3,7 @@ install::
 
 dummy::
 	./lua -l src/setup tests/test_dummy.lua
+
+
+mod1::
+	./lua -l src/setup tests/test_mod1.lua

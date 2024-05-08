@@ -8,8 +8,10 @@ function test_true()
 end
 
 function test_fdummy()
-    local var = dummy:fdummy()
-    assert_equal('dummy', var)
+    local var1 = dummy:fdummy()
+    assert_equal('dummy', var1)
+    local var2 = dummy.fdummy()
+    assert_equal('dummy', var2)
 end
 
 lunit.main(...)

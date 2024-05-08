@@ -11,7 +11,10 @@ description = {
 }
 dependencies = {
    "lua >= 5.1, < 5.5",
-   "lunit >= 0.5"
+   "lunit >= 0.5",
+   "luaunit >= 3.4",
+   "rxi-json",
+   "penlight"
 }
 build = {
    type = "builtin",
